@@ -18,7 +18,7 @@
 	icon_state = "tracker_blip"
 
 /obj/item/device/motiondetector
-	name = "motion detector"
+	name = "M314 motion tracker"
 	desc = "A device that detects movement, but ignores marines. Can also be used to scan a vehicle interior from outside, but accuracy of such scanning is low and there is no way to differentiate friends from foes."
 	icon = 'icons/obj/items/marine-items.dmi'
 	icon_state = "detector"
@@ -297,8 +297,8 @@
 		user.client.remove_from_screen(DB)
 
 /obj/item/device/motiondetector/m717
-	name = "M717 pocket motion detector"
-	desc = "This prototype motion detector sacrifices versatility, having only the long-range mode, for size, being so small it can even fit in pockets."
+	name = "M717 pocket motion tracker"
+	desc = "This prototype motion tracker sacrifices versatility, having only the long-range mode, for size, being so small it can even fit in pockets."
 	icon_state = "pocket"
 	item_state = "motion_detector"
 	flags_atom = FPRINT| CONDUCT
@@ -308,32 +308,32 @@
 	long_range_locked = TRUE
 
 /obj/item/device/motiondetector/m717/hacked/contractor
-	name = "modified M717 pocket motion detector"
-	desc = "This prototype motion detector sacrifices versatility, having only the long-range mode, for size, being so small it can even fit in pockets. This one has been modified with an after-market IFF sensor to filter out Vanguard's Arrow Incorporated signals instead of USCM ones. Fight fire with fire!"
+	name = "modified M717 pocket motion tracker"
+	desc = "This prototype motion tracker sacrifices versatility, having only the long-range mode, for size, being so small it can even fit in pockets. This one has been modified with an after-market IFF sensor to filter out Vanguard's Arrow Incorporated signals instead of USCM ones. Fight fire with fire!"
 	iff_signal = FACTION_CONTRACTOR
 
 /obj/item/device/motiondetector/hacked
-	name = "hacked motion detector"
+	name = "hacked motion tracker"
 	desc = "A device that usually picks up non-USCM signals, but this one's been hacked to detect all non-UPP movement instead. Fight fire with fire!"
 	iff_signal = FACTION_UPP
 
 /obj/item/device/motiondetector/hacked/elite_merc
-	name = "hacked motion detector"
+	name = "hacked motion tracker"
 	desc = "A device that usually picks up non-USCM signals, but this one's been hacked to detect all non-freelancer movement instead. Fight fire with fire!"
 	iff_signal = FACTION_MERCENARY
 
 /obj/item/device/motiondetector/hacked/pmc
-	name = "corporate motion detector"
+	name = "corporate motion tracker"
 	desc = "A device that usually picks up non-USCM signals, but this one's been reprogrammed to detect all non-PMC movement instead. Very corporate."
 	iff_signal = FACTION_PMC
 
 /obj/item/device/motiondetector/hacked/dutch
-	name = "hacked motion detector"
+	name = "hacked motion tracker"
 	desc = "A device that usually picks up non-USCM signals, but this one's been hacked to detect all non-Dutch's Dozen movement instead. Fight fire with fire!"
 	iff_signal = FACTION_DUTCH
 
 /obj/item/device/motiondetector/hacked/contractor
-	name = "modified motion detector"
+	name = "modified motion tracker"
 	desc = "A device that usually picks up non-USCM signals, but this one's been modified with after-market IFF sensors to detect all non-Vanguard's Arrow Incorporated movement instead. Fight fire with fire!"
 	iff_signal = FACTION_CONTRACTOR
 

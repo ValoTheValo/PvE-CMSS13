@@ -28,14 +28,14 @@
 
 
 /datum/supply_packs/motiondetector
-	name = "Motion Detector (x2)"
+	name = "Motion Tracker (x2)"
 	contains = list(
 		/obj/item/device/motiondetector,
 		/obj/item/device/motiondetector,
 					)
 	cost = 40
 	containertype = /obj/structure/closet/crate/supply
-	containername = "Motion Detector crate"
+	containername = "Motion Tracker crate"
 	group = "Gear"
 
 /datum/supply_packs/signal_flares

@@ -143,7 +143,7 @@
 		cloakedbell.cloaker_fade_in()
 
 /obj/item/device/motiondetector/internal
-	name = "internal motion detector"
+	name = "internal motion tracker"
 	detector_range = 7 //yeah no offscreen bs with this
 
 	var/obj/structure/machinery/defenses/bell_tower/md/linked_tower
@@ -159,8 +159,8 @@
 		sound_to(to_apply, 'sound/items/detector.ogg')
 
 /obj/structure/machinery/defenses/bell_tower/md
-	name = "R-1NG motion detector tower"
-	desc = "A tactical advanced version of the motion detector. Has an increased range, disrupts the activity of hostiles nearby."
+	name = "R-1NG motion tracker tower"
+	desc = "A tactical advanced version of the motion tracker. Has an increased range, disrupts the activity of hostiles nearby."
 	handheld_type = /obj/item/defenses/handheld/bell_tower/md
 	var/obj/item/device/motiondetector/internal/md
 	defense_type = "MD"
