@@ -91,7 +91,7 @@
 	if(prob(50))
 		new /obj/item/storage/belt/gun/type47/np92(src)
 	else
-		new new /obj/item/storage/belt/gun/type47/t73(src)
+		new /obj/item/storage/belt/gun/type47/t73(src)
 	new /obj/item/device/flash(src)
 	new /obj/item/storage/backpack/lightpack/upp(src)
 	new /obj/item/reagent_container/spray/pepper(src)
