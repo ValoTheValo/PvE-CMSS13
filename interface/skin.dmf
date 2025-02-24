@@ -171,8 +171,8 @@ window "mainwindow"
 		menu = "menu"
 	elem "split"
 		type = CHILD
-		pos = 3,0
-		size = 634x440
+		pos = 0,0
+		size = 640x440
 		anchor1 = 0,0
 		anchor2 = 100,100
 		saved-params = "splitter"
@@ -287,16 +287,12 @@ window "infowindow"
 	elem "discord"
 		type = BUTTON
 		pos = 420,5
-		size = 210x45
+		size = 100x20
 		anchor1 = 66,0
-		anchor2 = 97,0
+		anchor2 = 81,0
 		background-color = #7289da
-		font-size = 20px
-		font-family = "Arial"
-		text-align = center
-		font-weight = bold
 		saved-params = "is-checked"
-		text = "discord.gg/PVE-CMSS13"
+		text = "Discord"
 		command = "discord"
 
 window "outputwindow"

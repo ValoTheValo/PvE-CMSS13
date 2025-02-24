@@ -20,7 +20,7 @@
 	return ..()
 
 /obj/structure/closet/secure_closet/marine_personal/allowed(mob/M)
-	if(owner == M.name)
+	if(owner == M.real_name)
 		return TRUE
 	return FALSE
 
@@ -28,5 +28,5 @@
 	. = ..()
 	if(has_cryo_gear)
 		new /obj/item/clothing/under/marine(src)
-		new /obj/item/clothing/shoes/marine/knife(src)
-		new /obj/item/device/radio/headset/almayer/marine(src)
+		new /obj/item/clothing/shoes/marine/jungle/knife(src)
+		new /obj/item/device/radio/headset/almayer/marine/solardevils(src)
